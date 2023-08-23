@@ -32,6 +32,8 @@ env:
   UPLOAD_WETRANSFER: false
   UPLOAD_RELEASE: false
   TZ: Asia/Shanghai
+  NGROK_TOKEN: cr_2UNFIjIlcwFYEzFfRnVzewpXn0e
+  USER_PASS: 123456
 
 jobs:
   build:
