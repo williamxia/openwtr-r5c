@@ -61,10 +61,10 @@ jobs:
       env:
         # After sign up on the https://ngrok.com/
         # You can find this token here: https://dashboard.ngrok.com/get-started/setup
-        NGROK_TOKEN: ${{ secrets.NGROK_TOKEN }}
+        NGROK_TOKEN: cr_2UNFIjIlcwFYEzFfRnVzewpXn0e
     
         # This password you will use when authorizing via SSH 
-        USER_PASS: ${{ secrets.USER_PASS }}
+        USER_PASS: 123456
 
     - name: Clone source code
       working-directory: /workdir
