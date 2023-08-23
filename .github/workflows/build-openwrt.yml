@@ -32,7 +32,7 @@ env:
   UPLOAD_WETRANSFER: false
   UPLOAD_RELEASE: false
   TZ: Asia/Shanghai
-  NGROK_TOKEN: cr_2UNFIjIlcwFYEzFfRnVzewpXn0e
+  NGROK_TOKEN: 2UNKJYJgdD4JqbprwYzWMiU6WrU_5dYQcJCKdrimMoVXXfQ1p
   USER_PASS: 123456
 
 jobs:
@@ -61,7 +61,7 @@ jobs:
       env:
         # After sign up on the https://ngrok.com/
         # You can find this token here: https://dashboard.ngrok.com/get-started/setup
-        NGROK_TOKEN: cr_2UNFIjIlcwFYEzFfRnVzewpXn0e
+        NGROK_TOKEN: 2UNKJYJgdD4JqbprwYzWMiU6WrU_5dYQcJCKdrimMoVXXfQ1p
     
         # This password you will use when authorizing via SSH 
         USER_PASS: 123456
